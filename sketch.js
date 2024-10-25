@@ -83,7 +83,7 @@ const board = [];
 
 
 function setup() {
-  socket = new WebSocket('ws://localhost:3000');
+  socket = new WebSocket('wss://color-wars.onrender.com');
   socket.onmessage = onMessageReceived;
 
   createCanvas(cellSize * cols + 2 * outerPadding, cellSize * rows + 2 * outerPadding);

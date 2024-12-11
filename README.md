@@ -1,5 +1,4 @@
 # Color Wars
-
 ## Overview
 Color Wars is a 1v1 turn-based board game where strategy and chain reactions determine the winner. Claim your territory, strategically place your tiles, and eliminate your opponent!
 
@@ -7,12 +6,22 @@ Color Wars is a 1v1 turn-based board game where strategy and chain reactions det
 **Status:** Work in Progress
 **Players:** 2 (Automatically Matched)
 
-## How to Play
+## Game Link
+[Play Color Wars on Render](https://miryarik.github.io/color-wars/)
 
+## How to Play
 ### Accessing the Game
-1. Both players navigate to the game link on Render
-2. Players are automatically matched
-3. Game begins immediately
+1. Open the game link
+   ![Step 1: Open Game Link](screenshot_step1.png)
+
+2. Wait for automatic matchmaking
+   ![Step 2: Matchmaking](screenshot_step2.png)
+
+3. Players are automatically matched
+   ![Step 3: Matched](screenshot_step3.png)
+
+4. Game begins immediately
+   ![Step 4: Game Start](screenshot_step4.png)
 
 ### Game Rules
 - Players take turns placing tiles
@@ -37,12 +46,6 @@ Color Wars is a 1v1 turn-based board game where strategy and chain reactions det
 - Minimal UI
 - Basic game logic implemented
 
-## How to Play
-1. Open the game link
-2. Wait for automatic matchmaking
-3. Take turns placing tiles
-4. Watch your chain reactions unfold!
-
 ## Future Roadmap
 - Support for more than 2 players
 - Enhanced UI
@@ -53,3 +56,12 @@ Interested in improving Color Wars? Contributions are welcome!
 - Fork the repository
 - Create a feature branch
 - Submit a pull request
+
+## Screenshots
+![Gameplay Screenshot 1](gameplay_screenshot1.png)
+![Gameplay Screenshot 2](gameplay_screenshot2.png)
+
+## Notes for Contributors
+- Replace `YOUR_RENDER_LINK_HERE` with the actual game link
+- Replace `screenshot_step1.png`, `screenshot_step2.png`, etc., with actual screenshot files
+- Add actual gameplay screenshots to showcase the game

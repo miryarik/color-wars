@@ -10,14 +10,14 @@ const rows = 8;
 let myTurn;
 
 function gameOver(winner) {
-  const turnP = document.querySelector("#turn");
+  const infoHeader = document.querySelector("#info-header");
 
   const msg = myTurn === Number(winner) ? "You win" : "You lose";
   console.log(typeof winner, winner);
   console.log(typeof myTurn, myTurn);
   
   
-  turnP.innerText = msg;
+  infoHeader.innerText = msg;
 
 }
 

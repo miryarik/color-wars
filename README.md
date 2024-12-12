@@ -20,9 +20,11 @@ Color Wars is a 1v1 turn-based board game where strategy and chain reactions det
    ![step-2](./images/step-2.png)
 
 3. Game begins
+   - The header will indicate when you are ready to play your turn
    ![step-3](./images/step-3.png)
 
-4. Have fun!
+4. Have fun
+   - May the better player win!
    ![step-4](./images/step-4.png)
 
 ### Game Rules.

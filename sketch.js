@@ -76,7 +76,7 @@ function onMessageReceived(event) {
 
 
 // drawing
-const cellSize = 80;
+let cellSize = 80;
 const outerPadding = 10;
 const innerPadding = 0.05 * cellSize;
 const board = [];
@@ -86,7 +86,13 @@ function setup() {
   socket = new WebSocket('wss://color-wars.onrender.com');
   socket.onmessage = onMessageReceived;
 
-  createCanvas(cellSize * cols + 2 * outerPadding, cellSize * rows + 2 * outerPadding);
+  const marginFactor = 0.8;
+  const gridWidth = Math.min(windowWidth, windowHeight) * marginFactor;
+  cellSize = gridWidth / cols ;
+
+  const borderOffset = 20;
+  const canvasSize = cellSize * cols + borderOffset;
+  createCanvas(canvasSize, canvasSize);
   
   for (let i = 0; i < rows; i++) {
     board.push([]);

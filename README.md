@@ -12,7 +12,7 @@ Color Wars is a 1v1 turn-based board game where strategy and chain reactions det
 ## How to Play
 ### Accessing the Game
 1. Open the game link
-   - Both players go the game link.
+   - Both players go to the game link.
    ![step-1](./images/step-1.png)
 
 2. Wait for auto-matching

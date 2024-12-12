@@ -24,15 +24,15 @@ function gameOver(winner) {
 function showTurn(myTurn, turn = 0) {
   console.log("show turn called", myTurn, turn);
   
-  const turnP = document.querySelector("#turn");
+  const infoHeader = document.querySelector("#info-header");
 
   if (myTurn === turn)
     {
-      turnP.innerText = "Your turn";
+      infoHeader.innerText = "Your turn";
     }
   else
     {
-      turnP.innerText = "Opponent's turn";
+      infoHeader.innerText = "Opponent's turn";
     }
 }
 

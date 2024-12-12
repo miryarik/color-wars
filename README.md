@@ -12,16 +12,16 @@ Color Wars is a 1v1 turn-based board game where strategy and chain reactions det
 ## How to Play
 ### Accessing the Game
 1. Open the game link
-   ![Step 1: Open Game Link](screenshot_step1.png)
+   ![Step 1: Open Game Link](./images/step-1.png)
 
 2. Wait for automatic matchmaking
-   ![Step 2: Matchmaking](screenshot_step2.png)
+   ![Step 2: Matchmaking](./images/step-2.png)
 
 3. Players are automatically matched
-   ![Step 3: Matched](screenshot_step3.png)
+   ![Step 3: Matched](./images/step-3.png)
 
 4. Game begins immediately
-   ![Step 4: Game Start](screenshot_step4.png)
+   ![Step 4: Game Start](./images/step-4.png)
 
 ### Game Rules
 - Players take turns placing tiles
@@ -58,10 +58,5 @@ Interested in improving Color Wars? Contributions are welcome!
 - Submit a pull request
 
 ## Screenshots
-![Gameplay Screenshot 1](gameplay_screenshot1.png)
-![Gameplay Screenshot 2](gameplay_screenshot2.png)
-
-## Notes for Contributors
-- Replace `YOUR_RENDER_LINK_HERE` with the actual game link
-- Replace `screenshot_step1.png`, `screenshot_step2.png`, etc., with actual screenshot files
-- Add actual gameplay screenshots to showcase the game
+![Gameplay Screenshot 1](./images/game-ss-1.png)
+![Gameplay Screenshot 2](./images/game-ss-2.png)

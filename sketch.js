@@ -1,8 +1,8 @@
 let socket;
 const moveRequest = {}
 let clr = null;
-const clr1 = "#EA433559";
-const clr2 = "#4285F459";
+const clr1 = "#EA4335";
+const clr2 = "#4285F4";
 const backgroundClr = "#1F1F1F";
 const rectClr = "#2F2F2F";
 const cols = 8;
